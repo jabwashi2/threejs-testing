@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>My first three.js app</title>
+	</head>
+	<body>
+		<link rel="stylesheet" href="styles/main.css"></link>
+		<div id="container">
+			<canvas id="c"></canvas>
+			<div id="labels"></div>
+		</div>
+		<div class="fade-in-section" id="test-gold" hidden>
+			<button class="back-btn" onclick="() => {
+				document.querySelector('#test-gold').hidden = true; 
+				document.querySelector('#container').hidden = false;
+				}">Back</button>
+			<p>This is the gold page!</p>
+		</div>
+		<div id="test-green" hidden>
+			<button class="back-btn">Back</button>
+			<p>This is the green page!</p>
+		</div>
+		<div id="test-purple" hidden>
+			<button class="back-btn">Back</button>
+			<p>This is the purple page!</p>
+		</div>
+		<script type="module" src="src/refactor/main.js"></script>
+	</body>
+</html>

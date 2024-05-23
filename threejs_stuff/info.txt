@@ -1,0 +1,3 @@
+each planet will spin on its y axis
+on hover, they will scale up a bit
+on click, the camera will zoom in and reveal the content of that 'page'
